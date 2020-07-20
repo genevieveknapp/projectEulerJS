@@ -61,9 +61,10 @@ function largestThreeDigitPalindrome() {
     return largest;
 }
 
-console.log(largestThreeDigitPalindrome())
+module.exports = {
+  largestThreeDigitPalindrome,
+  isPalindromic3,
+  isPalindromic2,
+  isPalindromic
+};
 
-console.log(isPalindromic2(32345))
-console.log(isPalindromic2(303))
-console.log(isPalindromic3(45678))
-console.log(isPalindromic3(990099))
